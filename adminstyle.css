@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Verdana;
+}
+h1{
+    text-align:center;
+    font-size:3 rem;
+    border-bottom: 3px solid silver;
+    color: white;
+    background-color:rgb(95, 93, 93) ;
+}
+h3{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+/*posts starts here*/
+.posts{
+    width:100%;
+    padding: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+/*posts ends here*/
+
+
+/*post start here*/
+.post{
+    width:10%;
+    height: wrap fit-content;
+    margin: 0.3em;
+    box-shadow: 0 4px 8 px 0 rgba(0,0,0,0.2);
+    padding:1rem;
+    background-color: rgb(95, 93, 93);
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: medium;
+    font-family: sans-serif;
+    transition:all 0.4s;
+}
+/*post end here*/
+.post:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+.post p{
+    font-size: small;
+    margin-bottom: 10px;
+}
+.status{
+    color: greenyellow;
+
+}
+.booked{
+    color:rgb(244, 69, 69)
+}
+.post button{
+    padding: 3px;
+    margin-top: 7px;
+    border-radius: 0.4rem;
+    font-family: Verdana;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: 5px;
+    transition:all 0.4s;
+    
+}
+
+
+.newSlotButton{
+    margin-top: 20%; 
+    margin-bottom: 10%;
+    margin-left: 80%;
+    height: 60px;
+    width: 60px;
+    background:  rgb(95, 93, 93);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border:none;
+    transition: all 0.4s;
+}
+.newSlotButton :hover{
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    border-radius: 50%;
+    color:white;
+    background:rgb(27, 26, 26) ;
+    border: none;
+
+}
+    

@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    height: 100vh;
+
+}
+
+.newslotclass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    background: rgb(95, 93, 93);
+    border-radius: 10px;
+    padding:10px;
+    padding-bottom: 25px;
+}
+.newslotclass h1{
+text-align: center;
+padding: 0 0 20px 0;
+color:rgb(250, 243, 243);
+border-bottom: 1px solid silver;
+}
+
+.newslotclass form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+form .txt_feild{
+    position: relative;
+    border-bottom:  2px solid rgb(250, 243, 243);
+    margin: 30 px;
+    }
+
+    .txt_feild input{
+        width:100%;
+        padding:0 5px;
+        height: 40px;
+        font-size:16px;
+        border:none;
+        background: none;
+        outline:none;
+        margin-top: 15px;
+        
+    } 
+
+    .txt_feild label{
+        position: absolute;
+        top:50%;
+        left: 5px;
+        color: rgb(250, 243, 243);
+        transform: translateY(-20%);
+        font-size:16px;
+        pointer-events: none;
+        transition: .5s;
+   
+   }
+.txt_feild input:focus ~ label,
+.txt_feild input:valid ~ label{
+    top: 6px;
+    color:white;
+}
+
+   .form-action-button{
+       display: flex;
+       justify-content: space-between;
+   }
+
+   input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(27, 26, 26);
+    border-radius:25px;
+    font-size: 18px;
+    border: 2px rgb(250, 243, 243);
+    font-weight:700;
+    font-family: Verdana;
+    cursor: pointer;
+    outline: none;
+
+}
+input[type="reset"]{
+    width: 50%;
+    height: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 7px;
+    background-color: rgb(27, 26, 26);
+    border-radius:25px;
+    font-size: 18px;
+    border: 2px rgb(250, 243, 243);
+    font-weight:700;
+    font-family: Verdana;
+    cursor: pointer;
+    outline: none;
+
+}
